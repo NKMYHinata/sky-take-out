@@ -86,7 +86,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         // 设置创建人id和修改人id
         // TODO 后期需要改成当前登录用户的id
         employee.setCreateUser(10L);
-        employee.setCreateUser(10L);
+        employee.setUpdateUser(10L);
 
         employeeMapper.insert(employee);
     }
